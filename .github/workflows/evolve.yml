@@ -2,7 +2,7 @@ name: Evolve Sierpiński Triangle
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Run daily at 02:00
+    - cron: '0 2,8,14,20 * * *' # Run every 6 hours
   workflow_dispatch:
 
 jobs:
