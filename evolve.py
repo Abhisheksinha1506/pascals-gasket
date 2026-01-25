@@ -39,5 +39,14 @@ def evolve():
     with open(state_path, 'w') as f:
         json.dump(state, f, indent=4)
 
+    # Generate human summary
+    blocks = current_row.count(1)
+    summary = f"The Sierpiński pyramid has grown to Row {state['iteration']}. "
+    summary += f"This new layer adds {blocks} mathematical blocks to the gasket. "
+    summary += "The fractal symmetry is maintaining perfect proportion as the triangle descends."
+
+    with open(os.path.join(base_dir, 'summary.txt'), 'w') as f:
+        f.write(summary)
+
 if __name__ == "__main__":
     evolve()
