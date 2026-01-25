@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
+      issues: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,8 +24,24 @@ jobs:
       - name: Run evolution script
         run: python3 evolve.py
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Create Pull Request
+        if: success()
+        uses: peter-evans/create-pull-request@v6
         with:
-          commit_message: "Evolve Sierpiński - Row ${{ github.run_number }}"
-          file_pattern: 'state.json triangle.md'
+          commit-message: "Evolve Sierpiński - Row ${{ github.run_number }}"
+          branch: "evolution/gasket-building"
+          title: "Pyramid Expansion: Row ${{ github.run_number }}"
+          body: "A new row has been added to the Sierpiński mathematical mountain."
+          delete-branch: true
+
+      - name: Report Failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 Incident: Evolution Halted',
+              body: 'The daily evolution script for Sierpiński failed. Please check the [Actions log](' + context.payload.repository.html_url + '/actions/runs/' + context.runId + ') for details.'
+            })
