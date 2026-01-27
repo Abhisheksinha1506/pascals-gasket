@@ -24,3 +24,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 17 | `                                                   ██              ██                                                   ` |
 | 18 | `                                                   █ █             █ █                                                   ` |
 | 19 | `                                                  ████            ████                                                  ` |
+| 20 | `                                                  █   █           █   █                                                  ` |
