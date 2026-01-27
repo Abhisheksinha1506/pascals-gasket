@@ -1,5 +1,5 @@
 
-concurrency: sierpinski-builder-evolution
+concurrency: evolution-${{ github.workflow }}
 
 name: Evolve Sierpiński Triangle
 
