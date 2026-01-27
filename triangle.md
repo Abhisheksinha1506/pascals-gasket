@@ -15,3 +15,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 8 | `                                                        █       █                                                        ` |
 | 9 | `                                                       ██      ██                                                       ` |
 | 10 | `                                                       █ █     █ █                                                       ` |
+| 11 | `                                                      ████    ████                                                      ` |
