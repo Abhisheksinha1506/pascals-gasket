@@ -46,3 +46,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 39 | `                                        ████████                        ████████                                        ` |
 | 40 | `                                        █       █                       █       █                                        ` |
 | 41 | `                                       ██      ██                      ██      ██                                       ` |
+| 42 | `                                       █ █     █ █                     █ █     █ █                                       ` |
