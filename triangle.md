@@ -73,3 +73,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 66 | `                           █ █                                                             █ █                           ` |
 | 67 | `                          ████                                                            ████                          ` |
 | 68 | `                          █   █                                                           █   █                          ` |
+| 69 | `                         ██  ██                                                          ██  ██                         ` |
