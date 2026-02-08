@@ -86,3 +86,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 79 | `                    ████████████████                                                ████████████████                    ` |
 | 80 | `                    █               █                                               █               █                    ` |
 | 81 | `                   ██              ██                                              ██              ██                   ` |
+| 82 | `                   █ █             █ █                                             █ █             █ █                   ` |
