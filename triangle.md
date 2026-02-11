@@ -105,3 +105,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 98 | `           █ █                             █ █                             █ █                             █ █           ` |
 | 99 | `          ████                            ████                            ████                            ████          ` |
 | 100 | `          █   █                           █   █                           █   █                           █   █          ` |
+| 101 | `         ██  ██                          ██  ██                          ██  ██                          ██  ██         ` |
