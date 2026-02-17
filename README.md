@@ -4,7 +4,7 @@
 
 ### 📢 Latest Status
 <!-- LATEST_STATUS_START -->
-> The Sierpiński pyramid has grown to Row 128. This new layer adds 128 mathematical blocks to the gasket. The fractal symmetry is maintaining perfect proportion as the triangle descends.
+> The Sierpiński pyramid has grown to Row 129. This new layer adds 2 mathematical blocks to the gasket. The fractal symmetry is maintaining perfect proportion as the triangle descends.
 <!-- LATEST_STATUS_END -->
 
 ### 📖 The Analogy
