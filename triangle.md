@@ -138,3 +138,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 131 | `████                                                                                                                            ████` |
 | 132 | `█   █                                                                                                                           █   █` |
 | 133 | `██  ██                                                                                                                          ██  ██` |
+| 134 | `█ █ █ █                                                                                                                         █ █ █ █` |
