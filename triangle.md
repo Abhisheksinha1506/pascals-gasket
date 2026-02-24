@@ -167,3 +167,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 160 | `█                               █                                                                                               █                               █` |
 | 161 | `██                              ██                                                                                              ██                              ██` |
 | 162 | `█ █                             █ █                                                                                             █ █                             █ █` |
+| 163 | `████                            ████                                                                                            ████                            ████` |
