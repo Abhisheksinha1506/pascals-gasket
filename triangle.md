@@ -199,3 +199,4 @@ This triangle grows daily using Pascal's triangle mod 2.
 | 192 | `█                                                               █                                                               █                                                               █` |
 | 193 | `██                                                              ██                                                              ██                                                              ██` |
 | 194 | `█ █                                                             █ █                                                             █ █                                                             █ █` |
+| 195 | `████                                                            ████                                                            ████                                                            ████` |
